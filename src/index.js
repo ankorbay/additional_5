@@ -32,7 +32,7 @@ module.exports = function check(str, bracketsConfig) {
       }
       else if(str[i]===cl_br[j])
       {
-        if(j===npmtemp.pop())
+        if(j===temp.pop())
         {
           counter--;
         }
